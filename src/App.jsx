@@ -28,6 +28,17 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div className="readMe">
+        <h4>Read This Paragraph and Start Learniig React</h4>
+        <p>
+          <ol>
+            <li>Learn from Anjela's Video</li>
+            <li>frok it on Code SandBox</li>
+            <li>Deploy Same on VS Code / Local Environment</li>
+            <li>Commit to Git Hub</li>
+          </ol>
+        </p>
+      </div>
     </>
   );
 }
