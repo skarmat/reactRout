@@ -36,6 +36,7 @@ function App() {
             <li>frok it on Code SandBox</li>
             <li>Deploy Same on VS Code / Local Environment</li>
             <li>Commit to Git Hub</li>
+            <li>Create separate file for each lesson</li>
           </ol>
         </p>
       </div>
