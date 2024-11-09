@@ -39,6 +39,14 @@ function App() {
             <li>Create separate file for each lesson</li>
           </ol>
         </p>
+
+        <p>
+          <ol>
+            <li>
+              <a href="/lessonJSX.html">Lesson on Jsx</a>
+            </li>
+          </ol>
+        </p>
       </div>
     </>
   );
