@@ -1,0 +1,21 @@
+.heading {
+  background: black;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.para {
+  text-align: center;
+}
+
+.editable {
+  color: green;
+  text-align: center;
+}
+
+.random-image {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
