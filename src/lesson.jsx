@@ -5,14 +5,14 @@ const fName = "Sonam";
 const lName = "Wangchuk";
 
 const currentDate = new Date();
-const currentYear = currentDate.getFullYear();
+const year = currentDate.getFullYear();
 
 ReactDOM.render(
   <>
     <h4>Hello {fName + " " + lName}!</h4>
     <p>
       This Application is created by: {fName} <br />
-      copyright: {currentYear}
+      copyright: {year}
     </p>
   </>,
   document.getElementById("lessonJSX")
