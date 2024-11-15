@@ -3,20 +3,26 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+const khorlo =
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/8-Signs_KHORLO.svg/1920px-8-Signs_KHORLO.svg.png";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://hial.edu.in/static/logo.png" target="_blank">
+          <img
+            src="https://hial.edu.in/static/logo.png"
+            className="logo"
+            alt="Vite logo"
+          />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={khorlo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>HIAL + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
